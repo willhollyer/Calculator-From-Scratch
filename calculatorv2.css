@@ -1,0 +1,87 @@
+body{
+    background-color: rgb(94, 94, 94);
+    display: block;
+}
+
+.buttonGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+button {
+    appearance: auto;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+}
+
+#calculator {
+    box-sizing: border-box;
+    max-width: 400px;
+    border: 2px;
+    border-radius: 15px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: rgb(253, 161, 99);
+}
+
+.numButton {
+    padding : 25%;
+    border : 2px;
+    border-radius: 5px;
+    background-color: rgb(184, 182, 182);
+    font-size: 25px;
+    border-color: black;
+    outline: none;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.Button {
+    padding : 25%;
+    border : 2px;
+    border-radius: 5px;
+    background-color: rgb(184, 182, 182);
+    font-size: 25px;
+    border-color: black;
+    margin: 10px;
+    cursor: pointer;
+}
+
+#clear {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border : 2px;
+    border-radius: 5px;
+    background-color: rgb(184, 182, 182);
+    font-size: 25px;
+    border-color: black;
+    outline: none;
+    margin: 10px;
+    cursor: pointer;
+}
+#clear:hover {
+    background-color: rgb(128, 127, 127);
+}
+
+#display {
+    max-height: 100px;
+    padding : 10px;
+    border : 4px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background-color: rgb(247, 247, 247);
+    font-size: 30px;
+    text-align: right;
+    box-sizing: border-box;
+}
+
+button:hover {
+    background-color: rgb(128, 127, 127);
+}
